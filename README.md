@@ -31,7 +31,7 @@ import print from 'print_html_js'
 
 <script>
     // const print = document.querySelector('#print');
-    // const print_html_js = new Print_html_js(print);
+    // const printHtml = new printHtml(print);
     // or
     const printHtml = new PrintHtml('#print'); // you can add options: {dev: true} enable print css debugger
     printHtml.print();
@@ -46,14 +46,14 @@ accept two arguments elementOrSelector and options
 
 ## elementOrSelector
 
-| arguments | type | default | 
-| --- | --- | ---| --- |
-| dom | elementOrSelector | - | 
+| arguments | type | default |   
+| --- | --- | --- |
+| dom | elementOrSelector | - |   
 
 ## Options
 
 | arguments | type | default | 
-| --- | --- | ---| --- |
+| --- | --- | --- |
 | dev | Boolean | false | 
 | style | string | '' | 
 | printFrameId | string | 'print-html-id' | 
