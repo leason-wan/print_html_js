@@ -1,5 +1,5 @@
 {
-  "name": "print_html",
+  "name": "print_html_js",
   "version": "0.0.1",
   "description": "a mini tool for print html page with browser.",
   "main": "index.js",
