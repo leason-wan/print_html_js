@@ -1,0 +1,22 @@
+{
+  "name": "print_html",
+  "version": "0.0.1",
+  "description": "a mini tool for print html page with browser.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:umd": "rollup -c --environment TARGET:web",
+    "build:cjs": "rollup -c --environment TARGET:node"
+  },
+  "dependencies": {
+    "core-js": "3.2.1",
+    "rollup-plugin-babel": "4.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/preset-env": "7.6.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-uglify": "6.0.3"
+  }
+}
