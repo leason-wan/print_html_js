@@ -29,6 +29,7 @@ import print from 'print_html_js'
 <body>
 <div id="print">print this</div>
 
+<script src="https://unpkg.com/print_html_js@0.0.1/dist/print_html.min.js"></script>
 <script>
     // const print = document.querySelector('#print');
     // const printHtml = new printHtml(print);
